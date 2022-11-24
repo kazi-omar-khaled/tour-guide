@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d0d8ff;
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 280px) and (max-width:980px) {
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .social_links {
+        flex-direction: row;
+    }
+}
